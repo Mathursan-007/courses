@@ -4,7 +4,7 @@ import axios from "axios";
 
 function AddCourse() {
 
-    const [subjectName,setSubjectName] = useState();
+    const [subjectName,setSubjectName] = useState();//oath
     const [subjectID,setSubjectID] = useState();
 
     const addSubject = (e) => {
